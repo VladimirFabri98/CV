@@ -1,0 +1,311 @@
+/* GOLDEN RATIO SCALE */
+/* 20/32.36/52.36/84.72  */
+
+/*PERFECT FOURTH RATIO 1.333*/
+/* 20/26.66/35.54/47.37/63.15/84.17/112.2  */
+
+/* MINOR THIRD 1.2 */
+/* 20/ 24/ 28.8 / 34.56/ 41.47/ 49.77/ 59.72 */
+/* 16/ 20/ 25/ 31.25/ 39.06/ 48.83/ 61.04/ 76.3 / 95.375  */
+
+/* p/ h6/   h4/    h3/  h2/   h1*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0% 5%;
+  font-family: 'Roboto-Condensed', sans-serif;
+  color: #343a40;
+}
+
+p{
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h6, .university, .additional-information-text, .additional-information-task{
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.university, .additional-information-task{
+  font-weight: 600;
+}
+
+h4{
+  font-size: 25px;
+  line-height: 1.4;
+}
+
+h3{
+  font-size: 31.25px ;
+  line-height:1.3;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 39.06px;
+}
+
+h1{
+  font-size: 61.04px;
+  color: #9ab2d0;
+}
+
+/* ======================================================*/
+
+/* HEADER */
+header{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  padding: 10px;
+  margin-bottom: 95.375px;
+  background-color: rgb(1, 37, 83);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.header-title{
+  display:grid;
+  grid-template-columns: repeat(5,1fr);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header-title-text{
+  grid-column: 2/4;
+  align-self: center;
+  justify-self: end ;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.header-title h3{
+  color: #9ab2d0;
+  margin: 0;
+}
+
+.header-paragraph{
+  justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.header-paragraph p{
+  color: #CCD8E8;
+  grid-column: 2/5;
+  justify-self: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.photo{
+  grid-column: 4/5;
+  justify-self: start;
+  border-radius: 30%;
+}
+
+/* ======================================================*/
+
+/* ARTICLE */
+.article-main{
+  display:grid;
+  grid-template-columns:50% 50%;
+  margin-bottom: 95.375px;
+  /* column-gap: 30px; */
+  row-gap: 40px;
+}
+
+
+  /* Common classes */
+  .additional-information-div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* ARTICLE SKILLS */
+  .article-main-skills{
+    /* Grid properties as part of article-main div */
+    grid-column: 1/3;
+    grid-row: 1;
+    justify-self: stretch;
+
+    /* Grid properties as a grid container */
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items:stretch;
+    /* padding-right: 8%; */
+    
+  }
+
+  .article-main-skills h3{
+    justify-self: center;
+  }
+
+  .skills{
+    /* This is grid item of article-main-skills grid container */
+    /* Grid properties as a grid container */
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 33%);
+    align-items: center;
+    justify-items:center;
+  }
+
+  .skills .skill-icon-div:last-child{
+    grid-column:span 3;
+  }
+
+  .skill-icon-div{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 12px rgba(1, 37, 83, 1);
+    border-radius: 40px;
+  }
+
+  .skill-icon-div img{
+    padding-right: 5px;
+  }
+
+  /* ARTICLE EXPERIENCE */
+  .article-main-experience{
+    grid-row: 3;
+    grid-column: 1;
+    /* padding-right: 100px;
+    padding-left: 20px; */
+    padding: 20px;
+    margin-right: 40px;
+    box-shadow: 0px 0px 12px rgba(1, 37, 83, 0.5);
+    border-radius: 30px;
+  }
+  /* ARTICLE COURSES */
+  .article-main-courses{
+    grid-row: 2;
+    grid-column: 2;
+    padding:20px;
+    box-shadow: 0px 0px 12px rgba(1, 37, 83, 0.5);
+    border-radius: 30px;
+  }
+
+  /* ARTICLE CERTIFICATES */
+  .article-main-certificates{
+    padding:20px;
+    box-shadow: 0px 0px 12px rgba(1, 37, 83, 0.5);
+    border-radius: 30px;
+  }
+
+  /* ARTICLE EDUCATION */
+  .article-main-education{
+    grid-row: 2;
+    grid-column: 1;
+    /* padding-right: 100px;
+    padding-left: 20px; */
+    padding:20px;
+    margin-right: 40px;
+    box-shadow: 0px 0px 12px rgba(1, 37, 83, 0.5);
+    border-radius: 30px;
+  }
+
+  /* ARTICLE LANGUAGES */
+  .languages{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .article-languages{
+    /* margin-bottom: 95.375px; */
+    margin: 0 5% 95.375px;
+    padding: 20px;
+    box-shadow: 0px 0px 12px rgba(1, 37, 83, 0.5);
+    border-radius: 30px;
+  }
+
+  .article-languages h3{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  li h6{
+    text-align: center;
+    margin-bottom:10px;
+  }
+
+  .language-flag-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .language-flag-div h6{
+    padding-top: 7px;
+  }
+
+  /* ARTICLE INTERESTS */
+  .article-interests{
+    /* margin-bottom: 95.375px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 0 30% 95.375px 30%;
+    padding: 20px;
+    background-color: #012553;
+    border-radius: 30px;
+  }
+
+  .article-interests h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9ab2d0;
+  }
+
+  .paragraph-flex-div{
+    display: flex;
+    justify-content: center;
+    color: #CCD8E8;
+  }
+
+
+/* ======================================================*/
+/* FOOTER */
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  background-color: #012553;
+  color: #CCD8E8;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.icons-div{
+  /*This is a flex item of footer flex container*/
+  /*It is also its own flex container containing an icon and paragraph*/
+  display: flex;
+  align-items: center;
+}
+
+.icons-div img{
+  margin-right: 10px;
+}
+
+.icons-div a:link, a:visited{
+  text-decoration: underline;
+  color: #CCD8E8;
+  /* align-self: center; */
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+  
