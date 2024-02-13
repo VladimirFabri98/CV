@@ -8,271 +8,321 @@
   <title>Vladimir Fabri Curriculum Vitae</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style-grid.css" />
   <script src="https://kit.fontawesome.com/8a3e10395a.js" crossorigin="anonymous"></script>
+  <script defer src="effects.js"></script>
 </head>
 
-<body>
-  <header>
-    <!-- <div class="header-text"> -->
-      <div class="header-title">
-        <div class="header-title-text">
-          <h1>Vladimir Fabri</h1>
-          <h3>Teaching associate</h3>
-        </div>
-        <img class="photo" src="Resized.jpg" alt="Photo for CV" />
-      </div>
-      <div class="header-paragraph">
-        <p>Skilled, resourceful, ambitious and dedicated phD student and software development
+<body">
+  <header class="main-header">
+    
+    <div class="container header-content">
+      <div class="header-content-text">
+        <h1 class="primary-heading">Vladimir Fabri</h1>
+        <h2 class="secondary-heading">Teaching associate</h2>
+        <p class="header-paragraph">Skilled, resourceful, ambitious and dedicated phD student and software development
           enthusiast. Currently employed as teaching
           assistant at University of Novi Sad, Faculty of technical sciences in the field of Information Technologies, a
           job which requires
-          advanced organizational, communication, research and presentation skills along with familiarity and advanced
+          advanced organizational, communication, research and presentation skills along with familiarity and
           proficiency in IT technologies
-          ,most notably in web-development, ranging from back to front-end.
+          ,most notably in web-development.
         </p>
-      </div> 
-    <!-- </div> -->
+      </div>
+      <img class="photo" src="profile-photo.jpg" alt="Photo for CV" />
+    </div>
   </header>
-  <article>
-    <div class="article-main">
 
-      <div class="article-main-education">
-        <h3>Education</h3>
-        <h4>Bachelor's degree in Engineering management</h4>
-        <p class="university">Faculty of technical sciences, University of Novi Sad</p>
-        <div class="additional-information-div">
-          <p class="additional-information-text">10/2017 - 09/2021</p>
-          <p class="additional-information-text">Novi Sad, Serbia, Average grade 9.70/10</p>
-        </div>
-        <h4>Master's degree in Engineering management</h4>
-        <p class="university">Faculty of technical sciences, University of Novi Sad</p>
-        <div class="additional-information-div">
-          <p class="additional-information-text">10/2021- 09/2023</p>
-          <p class="additional-information-text">Novi Sad, Serbia, Average grade 9.90/10</p>
-        </div>
-        <h4>phD studies in Engineering management</h4>
-        <p class="university">Faculty of technical sciences, University of Novi Sad</p>
-        <div class="additional-information-div">
-          <p class="additional-information-text">11/2023 - Present</p>
-          <p class="additional-information-text">Novi Sad, Serbia</p>
-        </div>
+  <section class="contact-info">
+    <div class="container">
+      <h3 class="tertiary-heading"> Look me up</h3>
+      <div class="logos-links">
+        <a class="logo-link" href="https://rs.linkedin.com/in/vladimir-fabri-7865a3198"> <img width="50" height="50" src="icons/icons8-linkedin.svg" alt="linkedin"/></a>
+        <a class="logo-link" href="https://github.com/VladimirFabri98"> <img width="50" height="50" src="icons/icons8-github.svg" alt="github"/></a>
+        <a class="logo-link" href="mailto:vfficial98@gmail.com"> <img width="50" height="50" src="icons/icons8-gmail.svg"/></a>
+        <a class="logo-link" href="https://www.instagram.com/vladimirfabri_/"> <img width="50" height="50" src="icons/icons8-instagram.svg"/></a>
       </div>
-      <div class="article-main-experience">
-        <h3>Work experience</h3>
-        <h4>Teaching associate</h4>
-        <p class="university">Faculty of technical sciences, University of Novi Sad</p>
-        <div class="additional-information-div">
-          <p class="additional-information-text">10/2021 - Present</p>
-          <p class="additional-information-text">Novi Sad, Serbia</p>
-        </div>
-        <p class="explanation-paragraph">Faculty of technical sciences is the largest faculty in the University of Novi
-          Sad and is one of the foremost
-          institutions in the region in the fields of IT and engineering
-        </p>
-        <p class="additional-information-task">Achievements/Tasks</p>
-        <p>Tasked with teaching the third and fourth year students the concepts of object-oriented programming, back-end
-          to front-end application development, concepts of micro-service application architecture, scaling and
-          application deployment.
-        </p>
-        <h4>Teaching assistant</h4>
-        <p class="university">Faculty of technical sciences, University of Novi Sad</p>
-        <div class="additional-information-div">
-          <p class="additional-information-text">11/2023 - Present</p>
-          <p class="additional-information-text">Novi Sad, Serbia</p>
-        </div>
-        <p class="additional-information-task">Achievements/Tasks</p>
-        <p>I have been tasked with teaching students of master studies about significantly more complex IT concepts
-          while
-          retaining afformentioned tasks.
-        </p>
+    </div>
+  </section>
 
-      </div>
-      <div class="article-main-skills">
-        <h3>Skills</h3>
+  <article class="article-main">
+
+    <section class="skills-section">
+      <div class="container grid grid--1col skill-grid">
+        <h3 class="tertiary-heading">Skills</h3>
         <div class="skills">
-          <div class="skill-icon-div">
-            <img width="35" height="35" src="https://img.icons8.com/ios/50/checklist--v1.png" alt="checklist--v1" />
-            <h6>Organizational skills</h6>
+          <div class="skill-icon-div left-hand-side eighty-percent">
+            <ion-icon name="calendar-clear-outline"></ion-icon>
+            <p>Organizational skills</p>
           </div>
-          <div class="skill-icon-div">
-            <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/communication--v1.png"
-              alt="communication--v1" />
-            <h6>Communication skills</h6>
+          <div class="skill-icon-div eighty-percent">
+            <ion-icon name="chatbubbles-outline"></ion-icon>
+            <p>Communication skills</p>
           </div>
-          <div class="skill-icon-div">
-            <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/java-coffee-cup-logo--v1.png"
-              alt="java-coffee-cup-logo--v1" />
-            <h6>Java Programming</h6>
+          <div class="skill-icon-div right-hand-side ninety-percent">
+            <ion-icon name="easel-outline"></ion-icon>
+            <p>Presentation skills</p>
           </div>
-          <div class="skill-icon-div">
-            <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/javascript--v1.png"
-              alt="javascript--v1" />
-            <h6>JavaScript Programming</h6>
+          <div class="skill-icon-div left-hand-side sixty-percent">
+            <ion-icon name="logo-javascript"></ion-icon>
+            <p>JavaScript programming</p>
           </div>
-          <div class="skill-icon-div">
-            <img width="40" height="40" src="https://img.icons8.com/ios/50/000000/puzzle.png" alt="puzzle" />
-            <h6>Critical thinking and problem solving</h6>
+          <div class="skill-icon-div ninety-percent">
+            <ion-icon name="extension-puzzle-outline"></ion-icon>
+            <p>Problem solving and critical thinking</p>
           </div>
-          <div class="skill-icon-div">
-            <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/presentation.png"
-              alt="presentation" />
-            <h6>Presentation skills</h6>
+          <div class="skill-icon-div right-hand-side ninety-percent">
+            <ion-icon name="code-outline"></ion-icon>
+            <p>Java programming</p>
           </div>
-          <div class="skill-icon-div">
-            <img width="35" height="35"
-              src="https://img.icons8.com/external-soleicons-solid-amoghdesign/34/000000/external-architecture-soleicons-solid-vol-1-soleicons-solid-amoghdesign.png"
-              alt="external-architecture-soleicons-solid-vol-1-soleicons-solid-amoghdesign" />
-            <h6>Microservice software architecture</h6>
+          <div class="skill-icon-div left-hand-side ninety-percent">
+            <div>
+              <ion-icon name="logo-html5"></ion-icon>
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+            <p>HTML5 & CSS</p>
           </div>
-          <div class="skill-icon-div">
-            <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/html-5--v2.png" alt="html-5--v2" />
-            <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/css.png" alt="css" />
-            <h6>HTML5 & CSS</h6>
+          <div class="skill-icon-div eighty-percent">
+            <ion-icon name="grid-outline"></ion-icon>
+            <p>Microservice software architecture</p>
           </div>
-          <div class="skill-icon-div">
-            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/000000/angularjs.png"
-              alt="angularjs" />
-            <h6>Angular framework</h6>
+          <div class="skill-icon-div right-hand-side sixty-percent">
+            <ion-icon name="logo-angular"></ion-icon>
+            <p>Angular framework</p>
           </div>
-          <div class="skill-icon-div">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0,0,256,256"
-              style="fill:#000000;">
-              <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                style="mix-blend-mode: normal">
-                <g transform="scale(5.33333,5.33333)">
-                  <path
-                    d="M43.982,23.635c0.069,-4.261 -0.891,-9.328 -2.891,-15.273l-1.568,-4.662l-2.13,4.433c-0.114,0.237 -0.244,0.469 -0.38,0.698c-3.499,-3.004 -8.039,-4.831 -13.013,-4.831c-11.046,0 -20,8.954 -20,20c0,11.046 8.954,20 20,20c11.046,0 20,-8.954 20,-20c0,-0.123 -0.016,-0.242 -0.018,-0.365z"
-                    fill="#343a40"></path>
-                  <path
-                    d="M39.385,32.558c-3.123,4.302 -8.651,4.533 -13.854,4.442h-6.781h-1.938c4.428,-1.593 7.063,-1.972 9.754,-3.4c5.068,-2.665 10.078,-8.496 11.121,-14.562c-1.93,5.836 -7.779,10.85 -13.109,12.889c-3.652,1.393 -10.248,2.745 -10.248,2.745l-0.267,-0.145c-4.49,-2.259 -4.626,-12.313 3.537,-15.559c3.574,-1.423 6.993,-0.641 10.854,-1.593c4.122,-1.012 8.89,-4.208 10.83,-8.375c2.172,6.667 4.786,17.106 0.101,23.558zM15.668,38.445c-0.282,0.35 -0.713,0.555 -1.163,0.555c-0.823,0 -1.495,-0.677 -1.495,-1.5c0,-0.823 0.677,-1.5 1.495,-1.5c0.341,0 0.677,0.118 0.941,0.336c0.64,0.519 0.74,1.469 0.222,2.109z"
-                    fill="#ffffff"></path>
-                </g>
-              </g>
-            </svg>
-            <h6>Spring Framework</h6>
+          <div class="skill-icon-div ninety-percent">
+            <div class="spring-icon">
+              <ion-icon name="leaf-outline"></ion-icon>
+            </div>
+            <p>Spring Framework</p>
           </div>
         </div>
       </div>
-      <div class="article-main-certificates">
-        <h3>Certificates</h3>
-        <h4>Certificate of merit (05/2021-05/2021)</h4>
-        <p class="explanation-paragraph">Awarded by International federation for information processing</p>
-        <h4>Microsoft Excel Expert 2016 (01/2020 - 06/2020)</h4>
-        <p class="explanation-paragraph">Awarded by Faculty of technical sciences for achieving exceptional results on a
-          course dedicated to the use of
-          Microsoft Excel in business environment
-        </p>
-        <h4>Scholarship holder of the Fund for Young Talents of the Republic of Serbia - Dositeja (06/2021 - 06/2022)
-        </h4>
-        <p class="explanation-paragraph">I was holder of one of the most prestigious scholarships awarded by the
-          Republic of Serbia</p>
-      </div>
-      <div class="article-main-courses">
-        <h3>Courses</h3>
-        <h4>Build Responsive Real-World Websites with HTML and CSS</h4>
-        <p class="explanation-paragraph">Taught by Jonas Schmeddtman</p>
-        <h4>The complete JavaScript Course 2024: From Zero to Expert</h4>
-        <p class="explanation-paragraph">Taught by Jonas Schmeddtman
-        </p>
-        <h4>JavaScript Algorhitms and Data Structures Masterclass</h4>
-        <p class="explanation-paragraph">Taught by Colt Steele</p>
-        <h4>Master Microservices with Spring Boot and Spring Cloud</h4>
-        <p class="explanation-paragraph">Taught by Ranga Karanam from in28Minutes</p>
-        <h4>Hands-On Microservices with Spring Boot and Spring Cloud</h4>
-        <p class="explanation-paragraph">A book authored by Magnus Peter Henrik Larsson</p>
-      </div>
-    </div>
+    </section>
 
-    <div class="article-languages">
-      <h3>Languages</h3>
-      <ul class="languages">
-        <li>
-          <div class="language-flag-div">
-            <h6>English</h6>
-            <img width="48" height="48" src="https://img.icons8.com/color/48/great-britain.png" alt="great-britain"/>
+    <section class="path-section">
+      <div class="container grid grid--2cols path-grid">
+
+        <div class="content-container">
+          <h3 class="tertiary-heading">Education</h3>
+
+          <div class="flex-unit">
+
+            <p class="subtitle">Bachelor's degree in Engineering management</p>
+            <p class="subtitle-smaller">Faculty of technical sciences, University of Novi Sad</p>
+            <div class="additional-information-div">
+              <p class="additional-information-text">10/2017 - 09/2021</p>
+              <p class="additional-information-text">Novi Sad, Serbia, Average grade <strong>9.70/10</strong></p>
+            </div>
           </div>
-          <p class="additional-information-paragraph">Full professional Proficiency - C2</p>
-        </li>
-        <li>
-          <div class="language-flag-div">
-            <h6>Serbian</h6>
-            <img width="48" height="48" src="https://img.icons8.com/color/48/serbia.png" alt="serbia"/>
+
+          <div class="flex-unit">
+
+            <p class="subtitle">Master's degree in Engineering management</p>
+            <p class="subtitle-smaller">Faculty of technical sciences, University of Novi Sad</p>
+            <div class="additional-information-div">
+              <p class="additional-information-text">10/2021- 09/2023</p>
+              <p class="additional-information-text">Novi Sad, Serbia, Average grade <strong>9.90/10</strong></p>
+            </div>
           </div>
-          <p class="additional-information-paragraph">Native Proficiency - C2</p>
-        </li>
-        <li>
-          <div class="language-flag-div">
-            <h6>Slovak</h6>
-            <img width="48" height="48" src="https://img.icons8.com/color/48/slovakia.png" alt="slovakia"/>
+
+          <div class="flex-unit">
+
+            <p class="subtitle">phD studies in Engineering management</p>
+            <p class="subtitle-smaller">Faculty of technical sciences, University of Novi Sad</p>
+            <div class="additional-information-div">
+              <p class="additional-information-text">11/2023 - Present</p>
+              <p class="additional-information-text">Novi Sad, Serbia</p>
+            </div>
           </div>
-          <p class="additional-information-paragraph">Native Proficiency - B1</p>
-        </li>
-        <li>
-          <div class="language-flag-div">
-            <h6>German</h6>
-            <img width="48" height="48" src="https://img.icons8.com/color/48/germany.png" alt="germany"/>
+
+        </div>
+
+        <div class="content-container">
+          <h3 class="tertiary-heading">Work experience</h3>
+
+          <div class="flex-unit">
+
+            <p class="subtitle">Teaching associate</p>
+            <p class="subtitle-smaller">Faculty of technical sciences, University of Novi Sad</p>
+            <div class="additional-information-div">
+              <p class="additional-information-text">10/2021 - 09/2023</p>
+              <p class="additional-information-text">Novi Sad, Serbia</p>
+            </div>
+            <p class="explanation-text">Faculty of technical sciences is the largest faculty in the University of
+              Novi
+              Sad and is one of the foremost
+              institutions in the region in the fields of IT and engineering
+            </p>
+            <p class="additional-information-text hiden">Achievements/Tasks</p>
+            <p class="explanation-text hiden">Tasked with teaching the third and fourth year students the concepts of
+              object-oriented programming,
+              back-end
+              to front-end application development, concepts of micro-service application architecture, scaling and
+              application deployment.
+            </p>
+
           </div>
-          <p class="additional-information-paragraph">Elementary Proficiency - A2</p>
-        </li>
-        <li>
-          <div class="language-flag-div">
-            <h6>Russian</h6>
-            <img width="48" height="48" src="https://img.icons8.com/color/48/russian-federation.png" alt="russian-federation"/>
+
+          <div class="flex-unit">
+
+            <p class="subtitle">Teaching assistant</p>
+            <p class="subtitle-smaller">Faculty of technical sciences, University of Novi Sad</p>
+            <div class="additional-information-div">
+              <p class="additional-information-text">11/2023 - Present</p>
+              <p class="additional-information-text">Novi Sad, Serbia</p>
+            </div>
+            <p class="additional-information-text hiden">Achievements/Tasks</p>
+            <p class="explanation-text hiden">I have been tasked with teaching students of master studies about
+              significantly more complex IT concepts
+              while
+              retaining afformentioned tasks.
+            </p>
+
           </div>
-          <p class="additional-information-paragraph">Elementary Proficiency - A1</p>
-        </li>
-      </ul>
-    </div>
-    <div class="article-interests">
-      <h3>Interests</h3>
-      <div class="paragraph-flex-div">
+
+        </div>
+
+        <div class="content-container">
+          <h3 class="tertiary-heading">Certificates</h3>
+
+          <div class="flex-unit">
+
+            <p class="subtitle">Certificate of merit (05/2021-05/2021)</p>
+            <p class="explanation-text">Awarded by International federation for information processing</p>
+          </div>
+
+          <div class="flex-unit">
+
+            <p class="subtitle">Microsoft Excel Expert 2016 (01/2020 - 06/2020)</p>
+            <p class="explanation-text">Awarded by Faculty of technical sciences for achieving exceptional results on
+              a
+              course dedicated to the use of
+              Microsoft Excel in business environment
+            </p>
+
+          </div>
+
+          <div class="flex-unit">
+
+            <p class="subtitle">Scholarship holder of the Fund for Young Talents of the Republic of Serbia - Dositeja
+              (06/2021 - 06/2022)
+            </p>
+            <p class="explanation-text">I was holder of one of the most prestigious scholarships awarded by the
+              Republic of Serbia</p>
+
+          </div>
+
+        </div>
+
+        <div class="content-container">
+          <h3 class="tertiary-heading">Courses</h3>
+
+          <div class="flex-unit">
+
+            <p class="subtitle courses">Build Responsive Real-World Websites with HTML and CSS</p>
+            <p class="explanation-text">Taught by Jonas Schmeddtman</p>
+          </div>
+
+          <div class="flex-unit">
+
+            <p class="subtitle courses">The complete JavaScript Course 2024: From Zero to Expert</p>
+            <p class="explanation-text">Taught by Jonas Schmeddtman
+            </p>
+          </div>
+
+          <div class="flex-unit">
+
+            <p class="subtitle courses">JavaScript Algorhitms and Data Structures Masterclass</p>
+            <p class="explanation-text">Taught by Colt Steele</p>
+          </div>
+
+          <div class="flex-unit">
+
+            <p class="subtitle courses">Master Microservices with Spring Boot and Spring Cloud</p>
+            <p class="explanation-text">Taught by Ranga Karanam from in28Minutes</p>
+          </div>
+
+          <div class="flex-unit">
+
+            <p class="subtitle courses">Hands-On Microservices with Spring Boot and Spring Cloud</p>
+            <p class="explanation-text">A book authored by Magnus Peter Henrik Larsson</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="language-section">
+
+      <div class="container article-languages">
+        <h3 class="tertiary-heading">Languages</h3>
+        <ul class="languages">
+          <li>
+            <div class="language-flag-div">
+              <p class="language-name">English</p>
+              <img width="48" height="48" src="https://img.icons8.com/color/48/great-britain.png" alt="great-britain" />
+            </div>
+            <p class="language-profficiency">Full professional Proficiency - C2</p>
+          </li>
+          <li>
+            <div class="language-flag-div">
+              <p class="language-name">Serbian</p>
+              <img width="48" height="48" src="https://img.icons8.com/color/48/serbia.png" alt="serbia" />
+            </div>
+            <p class="language-profficiency">Native Proficiency - C2</p>
+          </li>
+          <li>
+            <div class="language-flag-div">
+              <p class="language-name">Slovak</p>
+              <img width="48" height="48" src="https://img.icons8.com/color/48/slovakia.png" alt="slovakia" />
+            </div>
+            <p class="language-profficiency">Native Proficiency - B1</p>
+          </li>
+          <li>
+            <div class="language-flag-div">
+              <p class="language-name">German</p>
+              <img width="48" height="48" src="https://img.icons8.com/color/48/germany.png" alt="germany" />
+            </div>
+            <p class="language-profficiency">Elementary Proficiency - A2</p>
+          </li>
+          <li>
+            <div class="language-flag-div">
+              <p class="language-name">Russian</p>
+              <img width="48" height="48" src="https://img.icons8.com/color/48/russian-federation.png"
+                alt="russian-federation" />
+            </div>
+            <p class="language-profficiency">Elementary Proficiency - A1</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="interests-section">
+
+      <div class="container article-interests">
+        <h3 class="tertiary-heading">Interests</h3>
+
         <p class="interests-paragraph">
           I am mostly interested in furthering my knowledge and career in IT. I'm primarily focused on obtaining new
           skills and knowledge which will also aid me in my phD studies as I fervently believe that theory has to be
           supported by practical evidence and application.
           During 2023 I have embraced the path of Stoicism, a school of thought that places emphasis on self-control,
           discipline, mindfulness, gratitude and a belief in self-power and inner locus of control.
-          Whenever I have free time i preffer to spend it on games such as chess, sports or video-games as I have a
-          rather competitive spirit.
+          Whenever I have free time I prefer to spend it on various subjects that interest me such as spirituality, economics, politics and football. Yet, sometimes I'm outright guilty of spending it on video games!
         </p>
+
       </div>
-
-    </div>
+    </section>
   </article>
-  <footer>
-    <div class="icons-div">
-      <img width="24" height="24" src="https://img.icons8.com/ios/50/255190/new-post--v1.png" alt="new-post--v1"/>
-      <!-- <i class="fa-solid fa-envelope-circle-check"></i> -->
-      <a href="mailto:vfficial98@gmail.com">vfficial98@gmail.com</a>
-    </div>
-    <div class="icons-div">
-      <img width="24" height="24" src="https://img.icons8.com/ios/50/255190/marker--v1.png" alt="marker--v1"/>
-      <!-- <i class="fa-solid fa-location-dot"></i> -->
-      <p>Čelarevo, Serbia</p>
-    </div>
-    <div class="icons-div">
-      <!-- <i class="fa-brands fa-github"></i> -->
-      <img width="24" height="24" src="https://img.icons8.com/ios/50/255190/github--v1.png" alt="github--v1"/>
-      <a href="http://github.com/VladimirFabri98">Check out my work</a>
-    </div>
-    <div class="icons-div">
-      <!-- <i class="fa-solid fa-mobile-screen"></i> -->
-      <img width="24" height="24" src="https://img.icons8.com/ios/50/255190/iphone.png" alt="iphone"/>
-      <p>+381621499120</p>
-    </div>
-    <div class="icons-div">
-      <!-- <i class="fa-brands fa-linkedin"></i> -->
-      <img width="24" height="24" src="https://img.icons8.com/ios/50/255190/linkedin.png" alt="linkedin"/>
-      <a href="https://www.linkedin.com/in/vladimir-fabri-7865a3198/"> Let's connect!</a>
-    </div>
-  </footer>
 
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
